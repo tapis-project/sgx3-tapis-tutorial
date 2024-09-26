@@ -1,1 +1,2 @@
-# gateways24-tapis-tutorial
+# tapis-ml-tutorial
+Tapis tutorial explaining ML workflow
