@@ -10,6 +10,8 @@ WORKDIR /home/tapis
 RUN mkdir .cache
 RUN chmod 777 .cache
 
+
 COPY --chown=tapis:tapis analyze_sentiment.py .
+RUN chmod -R 777 /home/tapis
 
 ENTRYPOINT ["python3","/home/tapis/analyze_sentiment.py"]
